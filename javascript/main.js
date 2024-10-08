@@ -1,13 +1,31 @@
-//alert("heyho")
+let nama = "Lisa Wakhidah" // tipe string
+let usia = 22 // tipe number
+let tinggiBadan = 158.2 //tipe double float
+let beratBadan
+let pacar = "jdksh"
+beratBadan = 52
 
-// prompt('masukkan usia anda?')
+//pengkondisian 
+if(pacar == null){
+    pacar = 'belom punya'
+}else{
+    pacar = 'udah punya'
+}
+// pengkondisian switch
+// switch(pacar){
+//     case 1 :
+//         pacar = 'sudah punya 1 ajax'
+//     break
+//     case 2 :
+//         pacar = 'sudah punya 2 ajax'
+//     break
+//     default :
+//     pacar = 'belom punya pacar'
+//     break
+// }
 
-//variabel sebuah wadah untuk menampung inputan user, nilai bisa juga
-// var usia = 22
-//  const usia = 22//tidak bisa diubah
-// let usia = 2 // masih bisa di ubah
-// usia = 35
-// console.log("haloo usia kamu adalah " + usia)
-// alert ("usia kamu adalah " + usia)
-let usia = prompt("berapa usia kamu?")
-alert ("usia kamu adalah " + usia)
+alert(`nama anda adalah ${nama} 
+usia anda adalah ${usia} 
+tinggi badan anda adalah ${tinggiBadan}kg
+pacar anda ${pacar}`
+)
